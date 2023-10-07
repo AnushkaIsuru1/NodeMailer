@@ -3,9 +3,9 @@ const nodemailer = require('nodemailer')
 
 const html = `<H1>Hello world</h1>`
 
-const sender = 'anushka8.ai@gmail.com'
-const receiver = 'ai.anushka24@gmail.com'
-const password = 'xvfrldlbiuixskno'
+const sender = '@gmail.com'
+const receiver = '@gmail.com'
+const password = ''
 
 async function main(){
     const transporter = nodemailer.createTransport({
